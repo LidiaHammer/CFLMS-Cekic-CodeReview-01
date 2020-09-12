@@ -2,11 +2,12 @@
    margin: 0 auto;
    width: 1000px;
 }
+
 #header {
 	background: #C8BBB8;
-	border: none;
 }
-#Lidia {
+
+header div {
 	display: inline-block;
 	float: left;
 	padding-left: 110px;
@@ -16,11 +17,11 @@
 }
 
 header img {
-padding-left: 40px;
+	padding-left: 40px;
 	padding-bottom: 40px;
 	padding-top: 60px;
-	
 }
+
 #nav {
     float: left;
     background: #B85956;
@@ -36,11 +37,13 @@ li {
   padding-right: 10px;
   font-size: 22pt;
   font-weight: bold;
-  }
-a {
-text-decoration: none;
- color: white;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
 #heading{
 	text-align: center;
 	font-size: 24pt;
@@ -50,15 +53,10 @@ text-decoration: none;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
+
 #phone {
 	text-align: center;
 	font-size: 22pt;
-
-}
-#atmscooter {
-	margin: 0 auto;
-   width: 1000px;
-   text-align: center;
 }
 
 #atm{
@@ -66,15 +64,14 @@ text-decoration: none;
 	display: inline-block;
 	float: left;
 	text-align: center;
-	font-size: 22pt;
-	
+	font-size: 22pt;	
 }
+
 #scooter {
 	width: 500px;
-display: inline-block;
+	display: inline-block;
 	text-align: center;
 	font-size: 22pt;
-
 }
 
 #footer {
@@ -82,8 +79,5 @@ display: inline-block;
 	background: #C8BBB8;
 	padding-bottom: 20px;
 	padding-top: 20px;
-
-}
-footer p {
 	font-size: 12pt;
 }
